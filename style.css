@@ -6,7 +6,6 @@
   --botao-ativo:#CAE3DA;
   --botao-inativo:#E3CAE0;
   --texto-fundo:#000000;
-
 } 
 
 body{
@@ -17,11 +16,11 @@ body{
 
 .conteudo-principal{
   display: flex;
-  flex-direction: colum;
+  flex-direction: column;
   justify-content:center;
   align-items:center;
-  max-width 1200px;
-  width:100%;
+  max-width: 1200px
+  width: 100%;
   margin:0 auto;
 }
 
