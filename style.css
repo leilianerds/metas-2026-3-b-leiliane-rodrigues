@@ -19,7 +19,7 @@ body{
   flex-direction: column;
   justify-content:center;
   align-items:center;
-  max-width: 1200px
+  max-width: 1200px;
   width: 100%;
   margin:0 auto;
 }
@@ -52,11 +52,11 @@ font-size: 32px;
 }
 
 .botoes{ 
-  display: block
+  display: block;
 }
 
 .botao.ativo{
-  background-color: var(--botao-ativo)
+  background-color: var(--botao-ativo);
   border-bottom: 4px solid var(--grifar);
 
 }
@@ -72,7 +72,7 @@ font-size: 32px;
 }
 
 .aba-conteudo-titulo-principal{
-  fonte-size: 28px;
+  font-size: 28px;
   text-align: center;
 }
 
@@ -94,7 +94,7 @@ font-size: 32px;
   margin: 0;
 }
 
-@media screen and (min_width: 768px)
+      @media screen and (min_width: 768px)    {
 .botao{
   display: flex;
 }
@@ -104,6 +104,4 @@ font-size: 32px;
     .border:last-child{
     border-radius: 0 40px 0 0;
     }
-    
-}
-  
+  }
