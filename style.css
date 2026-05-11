@@ -52,7 +52,7 @@ font-size: 32px;
 }
 
 .botoes{ 
-  display: block;
+  display: flex;
 }
 
 .botao.ativo{
