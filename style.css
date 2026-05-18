@@ -48,7 +48,7 @@ font-size: 32px;
 
 
 .botao:first-child{
-  border-radius: 40px 48px 0 0;
+  border-radius: 40px 40px 0 0;
 }
 
 .botoes{ 
@@ -68,7 +68,7 @@ font-size: 32px;
 }
 
 .abas.conteudo.ativo{
-  display: none;
+  display: block;
 }
 
 .aba-conteudo{
@@ -97,7 +97,7 @@ flex-wrap: wrap;
 }
 
 .contador-digito-numero{
-font: size 80px;
+font-size: 80px;
 margin: 0;
 }
 
